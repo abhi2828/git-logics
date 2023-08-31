@@ -1,4 +1,5 @@
 const reverseNumFun=(number)=>{
+    debugger
     let reversedNum = 0
     while (number !==0) {
         reversedNum = (reversedNum * 10) + (number % 10)

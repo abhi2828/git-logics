@@ -10,7 +10,7 @@ const functionTOFindSmallOrHighestNumber = (array,type,number)=>{
     if(type === 'small'){
         return array[number-1]
     }
-    else if(type === 'largr'){
+    else if(type === 'large'){
         return array[array.length - number]
     }}
     else{

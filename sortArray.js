@@ -19,14 +19,14 @@ for(let i = 0; i < arr.length -1; i++){
 //Solution 2 : optimize code without temperary veriable
 
 
-const arr2 = ['m','a','n', 'b', 'a'];
+// const arr2 = ['m','a','n', 'b', 'a'];
 
-for(let i = 0; i < arr2.length -1; i++){
-    if(arr2[i] > arr2[i + 1]){
-        [arr2[i],arr2[i + 1]] = [arr2[i + 1],arr2[i]]
-        i = -1
-    }
-}
+// for(let i = 0; i < arr2.length -1; i++){
+//     if(arr2[i] > arr2[i + 1]){
+//         [arr2[i],arr2[i + 1]] = [arr2[i + 1],arr2[i]]
+//         i = -1
+//     }
+// }
 
 
-console.log('Sorted array:', arr2);
+// console.log('Sorted array:', arr2);
